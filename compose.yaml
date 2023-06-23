@@ -1,0 +1,8 @@
+services:
+  app:
+    image: app
+    platform: linux/amd64
+    stdin_open: true
+    tty: true
+    volumes:
+    - ./:/app
